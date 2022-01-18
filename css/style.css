@@ -206,7 +206,7 @@ font-weight: 500;
   width: 20px;
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
   .wrapper{
     margin: 10px;
     grid-template-columns: repeat(1,1fr);
@@ -214,4 +214,4 @@ font-weight: 500;
   .info__interests ul{
     grid-template-columns: repeat(2,1fr);
   }
-} */
+}
