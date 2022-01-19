@@ -38,14 +38,14 @@ body {
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.profile .ava {
+.profile__ava {
   position: relative;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
 }
-.profile .ava img {
+.profile__ava-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -53,7 +53,7 @@ body {
   height: 100%;
   object-fit: cover;
 }
-.profile h2 {
+.profile__name {
   color: #fff;
   font-size: 1em;
   margin-top: 20px;
@@ -62,11 +62,11 @@ body {
   font-weight: 600;
   line-height: 1.4em;
 }
-.profile h2 span {
+.profile__position {
   font-weight: 300;
   line-height: 0.8em;
 }
-.contact {
+.contacts {
   padding: 40px 10px;
 }
 .title {
@@ -77,7 +77,7 @@ body {
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
-.contact ul {
+.contacts ul {
   position: relative;
 }
 .person li {
@@ -88,14 +88,14 @@ body {
   cursor: pointer;
   font-size: 18px;
 }
-.contact ul li .fa, .fab {
+.contacts ul li .fa, .fab {
   display: inline-block;
   width: 20px;
   font-size: 18px;
   color: #03a9f4;
 }
 
-.contact ul li a, span {
+.contacts ul li a, span {
   color: #fff;
   font-weight: 300;
 }
